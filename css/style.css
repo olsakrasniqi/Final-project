@@ -234,25 +234,22 @@ body {
   color: #333;
 }
 
-/* Vetëm për buytickets.html */
 .buytickets-page {
-  background-color: #c9d1e4; /* e njëjta ngjyrë si index.html */
+  background-color: #c9d1e4; 
   min-height: 100vh;
-  padding-top: 60px; /* nëse ke header, me lartësi normale */
+  padding-top: 60px;
   padding-bottom: 60px;
 }
 
-/* Stilizimi i formës (brenda buytickets.html) */
 .buytickets-page .container {
   max-width: 600px;
-  background-color: white;  /* formë me sfond të bardhë për kontrast */
+  background-color: white;  
   padding: 30px;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   margin-bottom: 50px;
 }
 
-/* Titulli */
 .buytickets-page h2.text-center {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #34568c;
@@ -260,13 +257,11 @@ body {
   font-weight: 700;
 }
 
-/* Labelat */
 .buytickets-page .form-label {
   font-weight: 600;
   color: #2c3e50;
 }
 
-/* Input-et */
 .buytickets-page .form-control {
   border: 1.5px solid #34568c;
   border-radius: 5px;
@@ -281,7 +276,6 @@ body {
   outline: none;
 }
 
-/* Butoni */
 .buytickets-page .btn-primary {
   background-color: #34568c;
   border-color: #34568c;
